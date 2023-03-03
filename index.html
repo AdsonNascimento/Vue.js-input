@@ -49,14 +49,14 @@
                 <input type="text" id="lname" name="lname" v-model="newMember.lname"><br>
 
                 <label for="instrument">Instrumento:</label><br>
-                <select name="instrument" id="instrument" v-model="newMenber.instrument">
+                <select name="instrument" id="instrument" v-model="newMember.instrument">
                     <option value="Baixo">Baixo</option>
                     <option value="Guitarra">Guitarra</option>
                     <option value="Violão">Violão</option>
                     <option value="Bateria">Bateria</option>
                     </select>
                     <br><br>
-                <input type="button" value="Adicionar" v-onclik="addMember">
+                <input type="button" value="Adicionar" v-on:click="addMember">
                 </form> 
             </section>
 
