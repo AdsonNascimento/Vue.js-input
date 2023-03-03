@@ -1,13 +1,13 @@
 members = [
     {
-        fname: 'John',
-        lname: 'Lennon',
-        instrument: 'Violão'
+        fname: 'alexander',
+        lname: 'Oliveira',
+        sector: 'Suporte'
     },
     {
         fname: 'George',
-        lname: 'Harrison',
-        instrument: 'Guitarra'
+        lname: 'Lima',
+        sector: 'Desenvolvimento'
     }
 ]
 
@@ -21,7 +21,7 @@ const handlingForms = {
     },
     methods: {
         addMember: function() {
-            if (this.newMember.fname && this.newMember.lname && this.newMember.instrument) {
+            if (this.newMember.fname && this.newMember.lname && this.newMember.sector) {
                 this.members.push(this.newMember);
                 this.newMember = {};
             } else {
