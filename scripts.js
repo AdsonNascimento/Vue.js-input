@@ -7,7 +7,7 @@ members = [
     {
         fname: 'George',
         lname: 'Lima',
-        sector: 'Desenvolvimento'
+        sector: 'Front-end'
     }
 ]
 
